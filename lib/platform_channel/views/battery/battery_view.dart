@@ -18,6 +18,7 @@ class BatteryView extends GetView<BatteryViewmodel> {
         children: [
           _batteryView(),
           _platformCardRow()
+          
         ],
       ),
     ));

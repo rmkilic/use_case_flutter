@@ -31,6 +31,10 @@ dependencies:
 #for - Platform_channel:
   battery_plus: ^6.2.1
 
+#for - Speed Tracer
+  geolocator: ^13.0.4
+  syncfusion_flutter_gauges: ^29.1.37
+
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
@@ -46,4 +50,6 @@ flutter:
   assets:
     - assets/
     - assets/icons/
+    - assets/screenshot/
+
 

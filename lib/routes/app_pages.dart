@@ -4,6 +4,8 @@ import 'package:get/get.dart';
 import 'package:use_case/home_view.dart';
 import 'package:use_case/platform_channel/binding/battery_binding.dart';
 import 'package:use_case/platform_channel/views/battery/battery_view.dart';
+import 'package:use_case/speed_tracer/bindings/location_binding.dart';
+import 'package:use_case/speed_tracer/view/speed_tracer_view.dart';
 
 part 'app_routes.dart';
 
@@ -22,6 +24,11 @@ class AppPages {
       page: () => const  BatteryView(),
       binding: BatteryBinding(),
     ),
+    GetPage(
+      name: _Paths.SPEEDTRACER, 
+      page: ()=> SpeedTracerView(), 
+      binding: LocationBinding(),
+    )
 
   ];
 }

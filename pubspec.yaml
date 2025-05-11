@@ -35,6 +35,11 @@ dependencies:
   geolocator: ^13.0.4
   syncfusion_flutter_gauges: ^29.1.37
 
+
+
+#ads
+  google_mobile_ads: ^6.0.0
+
   cupertino_icons: ^1.0.8
 
 dev_dependencies:

@@ -5,6 +5,7 @@
 **Flutter ile ilgili çeşitli kullanım senaryolarını ve bileşenleri denemek amacıyla oluşturulmuş bir çalışma alanıdır.**<br>
 
 🎯 **Native / Package (platform_channel)** 
+ - Test amaçlı Google Ads eklenmiştir.(google_mobile_ads)
  - Batarya Bilgisini Alabilmek için ***Android*** tarafında ***Kotlin*** kullanılarak ***Native*** kod yazıldı ve ***battery_plus*** paketiyle aynı  verilere erişilmek istendi . İşlemler süresince bir timer başlatıldı ve bu işlemlerin kıyaslanması amaçlandı  
 <p float="left">
   <img src="assets/screenshot/ss_battery_native.jpg" width="300"/>
